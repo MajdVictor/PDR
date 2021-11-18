@@ -28,7 +28,7 @@ if __name__ == "__main__":
     linkedlist = LinkedList()
     linkedlist.head = node1
     node1.next = node2
-    node2.next = node3
+    node3.next = node3
 
     linkedlist.printLinkedList()
 
