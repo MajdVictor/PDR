@@ -16,5 +16,6 @@ if __name__ == "__main__":
     number = 234
     number2 = 234432
 
+
     print(isPalindrome(number))
     print(isPalindrome(number2))
