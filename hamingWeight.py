@@ -6,5 +6,8 @@ def hammingWeight(n):
         
     return a
 
+def hammingWeight2(n):
+    return bin(n).count("1") #Faster solution
+
 if __name__ == "__main__":
-    print(hammingWeight(2))
+    print(hammingWeight2(2))
